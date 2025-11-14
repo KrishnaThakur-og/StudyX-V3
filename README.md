@@ -1,73 +1,107 @@
-# Welcome to your Lovable project
+StudyX – Academic Task & Timetable Management System
 
-## Project info
+StudyX is a web-based academic management platform designed to simplify communication between teachers and students. It allows teachers to assign tasks, update timetables, and track student performance, while students can view tasks, mark completion, and monitor their progress in one place.
 
-**URL**: https://lovable.dev/projects/7f202ef9-829f-49d5-9eda-1ef75ec26d8d
+🚀 Features
+For Students
 
-## How can I edit this code?
+View assigned tasks with deadlines and priority
 
-There are several ways of editing your application.
+Mark tasks as completed
 
-**Use Lovable**
+Access updated class timetables
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7f202ef9-829f-49d5-9eda-1ef75ec26d8d) and start prompting.
+View analytics showing progress and performance trends
 
-Changes made via Lovable will be committed automatically to this repo.
+For Teachers
 
-**Use your preferred IDE**
+Assign tasks to students
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Update class timetables
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Monitor student task completion
 
-Follow these steps:
+View performance summaries
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🧩 Tech Stack
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Next.js – Frontend & Backend (API Routes)
 
-# Step 3: Install the necessary dependencies.
-npm i
+React.js – UI components
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Tailwind CSS – Styling
+
+(Optional Future) Node.js, MongoDB / Firebase
+
+📌 Project Modules
+
+Authentication Module
+
+Task Management Module
+
+Timetable Module
+
+Student Dashboard
+
+Teacher Dashboard
+
+Analytics & Reports
+
+📊 Key Reports
+
+Student task completion report
+
+Teacher performance overview
+
+Monthly progress insights
+
+Pending vs completed task charts
+
+🗃️ Database Overview
+
+User Table: Students & Teachers
+
+Task Table: Task details, deadlines, priority
+
+Timetable Table: Class schedule for students
+
+Progress Table: Completed tasks & performance data
+
+🛠️ Installation & Setup
+# Clone the repository
+git clone https://github.com/KrishnaThakur-og/StudyX-V3.git
+
+# Navigate to project folder
+cd studyx
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+📌 Future Enhancements
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Mobile app version (Android/iOS)
 
-**Use GitHub Codespaces**
+Real-time notifications
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+In-app chat system
 
-## What technologies are used for this project?
+Automated AI performance insights
 
-This project is built with:
+Attendance tracking module
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+👨‍💻 Team Members
 
-## How can I deploy this project?
+Krishna Thakur – Developer
 
-Simply open [Lovable](https://lovable.dev/projects/7f202ef9-829f-49d5-9eda-1ef75ec26d8d) and click on Share -> Publish.
+Riyaz Nadaf – UI/UX Designer
 
-## Can I connect a custom domain to my Lovable project?
+Nitin Babar – Documentation Specialist
 
-Yes, you can!
+Bhagwan Samant – Tester & Bug Fixer
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+📄 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is for educational purposes.
