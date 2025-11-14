@@ -91,6 +91,55 @@ const About = () => {
             </CardContent>
           </Card>
 
+                    <Card className="border-accent/20 shadow-xl">
+            <CardHeader>
+              <CardTitle className="text-2xl">Our Team</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="flex gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary/20 to-primary/10 flex items-center justify-center flex-shrink-0">
+                    <CheckSquare className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg mb-1">Riyaz Nadaf</h4>
+                    <p className="text-muted-foreground">Riyaz was responsible for designing the user interface and overall user experience. He created layouts, improved visual structure, and made sure the platform is easy for both students and teachers to use.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-accent/20 to-accent/10 flex items-center justify-center flex-shrink-0">
+                    <Users className="w-6 h-6 text-accent" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg mb-1">Krishna Thakur</h4>
+                    <p className="text-muted-foreground">Krishna handled the core development of the StudyX system. He worked on building the main features, integrating the functionality, and ensuring that the system runs smoothly from the technical side.</p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary/20 to-accent/10 flex items-center justify-center flex-shrink-0">
+                    <Calendar className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg mb-1">Nitin Babar</h4>
+                    <p className="text-muted-foreground">Nitin prepared the project documentation, organized the written content, and ensured that all project details were clearly explained. He handled formatting, structuring, and maintaining the final report.</p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-accent/20 to-primary/10 flex items-center justify-center flex-shrink-0">
+                    <GraduationCap className="w-6 h-6 text-accent" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg mb-1">Bhagwan Samant</h4>
+                    <p className="text-muted-foreground">Bhagwan tested the system thoroughly, identified bugs, and helped improve stability. He checked system workflows, reported issues, and ensured that the final version works without major problems.</p>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
           {/* How It Works */}
           <Card className="border-primary/20 shadow-xl">
             <CardHeader>
@@ -146,7 +195,7 @@ const About = () => {
                   </div>
                   <div>
                     <p className="font-semibold">Phone</p>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+91 1234567890</p>
                   </div>
                 </div>
                 
@@ -156,7 +205,7 @@ const About = () => {
                   </div>
                   <div>
                     <p className="font-semibold">Address</p>
-                    <p className="text-muted-foreground">123 Education Street, Learning City, ED 12345</p>
+                    <p className="text-muted-foreground">SGU, India</p>
                   </div>
                 </div>
               </div>
@@ -180,3 +229,4 @@ const About = () => {
 };
 
 export default About;
+
